@@ -1,0 +1,40 @@
+--Summary:
+Objective: Learn how to analyze functional needs to identify entities, their attributes, and relationships in a relational database.
+
+Key Concepts:
+
+Entities: Core objects or concepts (e.g., User, Article, Comment).
+
+Attributes: Properties of entities (e.g., name, email, title).
+
+Relationships: Connections between entities (1–1, 1–N, N–N).
+
+Cardinalities: Define how many instances of one entity relate to another (0, 1, many).
+
+Conceptual Modeling: First step in designing a relational database.
+
+Theory:
+
+Entities represent important objects.
+
+Attributes describe them.
+
+Relationships link entities (e.g., User writes Article, Article receives Comment).
+
+Cardinalities specify the number of links possible.
+
+Practical Example (Blog Database):
+
+Entities:
+
+User (id, name, email, role)
+
+Article (id, title, content, date_pub)
+
+Comment (id, content, author, date)
+
+Relationships:
+
+User → Article: one user writes many articles (1–N).
+
+Article → Comment: one article receives many comments (1–N)
